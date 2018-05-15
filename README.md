@@ -23,7 +23,7 @@ outputFile | string | 输出文件路径
 1. 在转码输出 bucket 地域下行新键无服务器云函数 logtimer，
 2. 函数配置中设置运行环境设置为 Nodejs，超时时间设置为300s
 3. 触发方式选择定时触发，触发间隔设置为5分钟
-4. 下载 SCF 函数代码压缩包，解压后修改配置文件 type 为 output，stat.enable 为true，其他为默认值并压缩成 zip 包
+4. 下载 SCF 函数代码压缩包，解压后重命名 config.templte.json为config.json，填写好帐号信息，并修改配件 type 为 output，stat.enable 为true，其他为默认值并压缩成 zip 包
 5. 在函数代码中选择本地zip包上传，上传上步骤的 zip 包
 
 
