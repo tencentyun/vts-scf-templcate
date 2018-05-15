@@ -20,6 +20,7 @@ outputFile | string | 输出文件路径
 
 
 #### 添加步骤
+这里假定您已经设置好自动转码无服务云函数，若还没设置，可[参考文档](https://cloud.tencent.com/document/product/266/15572)。
 1. 在转码输出 bucket 地域下行新键无服务器云函数 logtimer，
 2. 函数配置中设置运行环境设置为 Nodejs，超时时间设置为300s
 3. 触发方式选择定时触发，触发间隔设置为5分钟
@@ -31,7 +32,7 @@ outputFile | string | 输出文件路径
 
     {
 
-        "type":"input",            //input:响应上传  output：整理删除日志
+        "type":"input",            //input:响应上传  output：整理输出日志
         "region":"ap-beijing",     //日志bucket地域
         "stat":{
             "enable":true,         //是否开启日志功能
