@@ -1,6 +1,7 @@
 {
-    "SecretId":"",
-    "SecretKey":"",   
+    "appId":"your appid",
+    "SecretId":"your secretid",
+    "SecretKey":"your secretkey",   
     "param":{
         "output":{
             "bucket":"testout0511",
@@ -13,7 +14,7 @@
         }
     },
 
-    "appId":"",
+ 
     "type":"input",
     "region":"ap-beijing",
     "stat":{

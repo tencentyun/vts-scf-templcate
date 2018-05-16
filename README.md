@@ -29,9 +29,11 @@ outputFile | string | 输出文件路径
 5. 在函数代码中选择本地zip包上传，上传上步骤的 zip 包
 
 
-### 配置文件说明
+### 日志相关配置文件说明
 
     {
+
+        .....
 
         "type":"input",            //input:响应上传  output：整理输出日志
         "region":"ap-beijing",     //日志bucket地域
