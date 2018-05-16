@@ -17,7 +17,7 @@
     "type":"input",
     "region":"ap-beijing",
     "stat":{
-        "enable":false,
+        "enable":true,
         "path":"log",
         "level":"EACH"
     },
