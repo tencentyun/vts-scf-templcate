@@ -20,7 +20,7 @@ outputFile | string | 输出文件路径
 
 
 #### 添加步骤
-这里假定您已经设置好自动转码无服务云函数，若还没设置，可[参考文档](https://cloud.tencent.com/document/product/266/15572)配置上传触发转码的 SCF，其中将配置文件 stat.enable设置为true,region设置为 cos [所在地域]，例如 ap-beijing、ap-guangzhou 等。(https://cloud.tencent.com/document/product/436/6224)。
+这里假定您已经设置好自动转码无服务云函数，若还没设置，可[参考文档](https://cloud.tencent.com/document/product/266/15572)配置上传触发转码的 SCF，其中将配置文件 stat.enable设置为true,region设置为 cos [所在地域](https://cloud.tencent.com/document/product/436/6224)。，例如 ap-beijing、ap-guangzhou 等。
 
 1. 在转码输出 bucket 地域下行新键无服务器云函数 logtimer，
 2. 函数配置中设置运行环境设置为 Nodejs，超时时间设置为300s
